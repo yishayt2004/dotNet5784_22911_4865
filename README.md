@@ -20,6 +20,13 @@ We believe that the project can be further developed to incorporate additional f
 - Integration with cloud services for data storage and synchronization.
 - Support for mobile platforms to enable access from anywhere, anytime.
 
+## Project Structure
+The solution is divided into multiple layers:  
+- **PL (Presentation Layer)** – Handles the UI and user interactions.  
+- **BL (Business Logic Layer)** – Contains the core logic of the application.  
+- **DalFacade (Data Access Layer Facade)** – Interface between BL and data sources.  
+- **DalList / DalXml (Data Access Layer Implementations)** – Different implementations for data storage.  
+
 ## Contributors
 - Eitan Lattes
   - Email: [eitanlattes@gmail.com](mailto:eitanlattes@gmail.com)
@@ -44,6 +51,13 @@ We believe that the project can be further developed to incorporate additional f
 - Three-layer Architecture
 - WPF (Windows Presentation Foundation)
 
-## Feedback and Support
-We welcome feedback from users who download and use our application. If you encounter any issues or have suggestions for improvements, please don't hesitate to reach out to us. You can contact us via email or create an issue on GitHub.
+## Requirements
+- **.NET Framework** (Version X.X)  
+- **Visual Studio**  
+- **Windows OS**  
 
+## Contributing
+Feel free to submit issues or pull requests to improve the project.  
+
+## License
+This project is licensed under the **MIT License**.  
